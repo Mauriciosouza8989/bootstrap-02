@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./OIP.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        img{
+            width: 100%;
+            max-height: 100%;
+        }
+        .carousel-inner{
+            max-height: 80vh;
+        }
+        .carousel-images{
+            width: 100%;
+        }
+        header{
+            z-index: 9;
+        }
+    </style>
+    <title>Capcom</title>
+</head>
+<body>
+    <header class="border-bottom position-sticky top-0 bg-light">
+        <div class="navbar navbar-expand-md">
+            <div class="container">
+                <h1 class="text-warning">Capcom</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav nav-navbar nav-pill flex-column align-items-center flex-md-row">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="mt-3 mb-3 carousel-images">
+            <div id="carousel-example" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img src="https://th.bing.com/th/id/R.d543bad317c1a8b475d53e01bbc6b2c1?rik=m6FWPDqjX8nvbA&pid=ImgRaw&r=0">
+                        
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img src="https://www.somosxbox.com/wp-content/uploads/2020/07/resident-evil-4-remake-in-works.jpg">
+                        
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img src="https://i.ytimg.com/vi/SnWN1-dNYYQ/maxresdefault.jpg">
+                        
+                    </div>
+                </div>
+                <button data-bs-target="#carousel-example" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-example" data-bs-slide="next" type="button" class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-example" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel-example" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-example" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card mb-3">
+                    <div>
+                        <img src="https://i.ytimg.com/vi/SnWN1-dNYYQ/maxresdefault.jpg" class="card-img-top">
+                    </div>
+                    <div class="card-body d-flex flex-column gap-2">
+                        <h3 class="card-title">Resident evil 7</h3>
+                        <span class=""><strong>Categoria:</strong> Terror</span>
+                        <h6 class="card-subtitle">BRL R$128,99</h6>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum modi dolorum id, hic adipisci maxime dolorem laborum iusto.
+                        </p>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card mb-3">
+                    <div>
+                        <img src="https://www.somosxbox.com/wp-content/uploads/2020/07/resident-evil-4-remake-in-works.jpg" class="card-img-top">
+                    </div>
+                    <div class="card-body d-flex flex-column gap-2">
+                        <h3 class="card-title">Resident evil 4</h3>
+                        <span class=""><strong>Categoria:</strong> Terror</span>
+                        <h6 class="card-subtitle">BRL R$128,99</h6>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum modi dolorum id, hic adipisci maxime dolorem laborum iusto.
+                        </p>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card mb-3">
+                    <div>
+                        <img src="https://th.bing.com/th/id/R.d543bad317c1a8b475d53e01bbc6b2c1?rik=m6FWPDqjX8nvbA&pid=ImgRaw&r=0" class="card-img-top">
+                    </div>
+                    <div class="card-body d-flex flex-column gap-2">
+                        <h3 class="card-title">Resident evil VILLAGE</h3>
+                        <span class=""><strong>Categoria:</strong> Terror</span>
+                        <h6 class="card-subtitle">BRL R$128,99</h6>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum modi dolorum id, hic adipisci maxime dolorem laborum iusto.
+                        </p>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+        <footer class="bg-light p-4 d-flex justify-content-center mt-5">
+            <p>&copy; Todos os direitos reservados</p>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
